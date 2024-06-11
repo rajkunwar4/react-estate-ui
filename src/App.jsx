@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div>Hello World</div>
+    <div>Creating the UI of full stack react application</div>
   )
 }
 
