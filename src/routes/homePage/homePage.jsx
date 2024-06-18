@@ -1,9 +1,12 @@
-import React from 'react'
+import "./homePage.scss"
 
 const homePage = () => {
   return (
-    <div>homePage</div>
-  )
-}
+    <div className="homePage">
+      <div className="textContainer">img</div>
+      <div className="imgContainer">text</div>
+    </div>
+  );
+};
 
-export default homePage
+export default homePage;
