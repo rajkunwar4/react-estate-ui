@@ -1,8 +1,14 @@
+import { listData } from "../../lib/dummyData"
 import "./singlePage.scss"
 
 const SinglePage = () => {
+
+
+
   return (
-    <div className='singlePage'>SinglePage</div>
+    <div className='singlePage'>
+      
+    </div>
   )
 }
 
