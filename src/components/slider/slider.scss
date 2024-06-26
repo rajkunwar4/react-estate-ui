@@ -1,3 +1,5 @@
+@import "../../responsive.scss";
+
 .slider{
 
     width: 100%;
@@ -29,6 +31,14 @@
                 cursor: pointer;
                 &.right{
                     transform: rotate(180deg);
+                }
+
+                @include md{
+                    width: 20px;
+                }
+
+                @include sm{
+                    width: 15px;
                 }
             }
         }
